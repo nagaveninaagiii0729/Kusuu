@@ -1,0 +1,129 @@
+/* ===========================
+   KUSUU ❤️ NAAGII
+   HOME PAGE
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Lora',serif;
+    background:url("hero.jpg") center center/cover no-repeat fixed;
+    height:100vh;
+    overflow:hidden;
+    color:#fff;
+}
+
+/* Dark Overlay */
+
+.overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(20,15,15,0.45);
+    backdrop-filter:blur(2px);
+    z-index:1;
+}
+
+/* Hero */
+
+.hero{
+    position:relative;
+    z-index:2;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:25px;
+}
+
+.content{
+    max-width:700px;
+}
+
+/* Small Heading */
+
+.small-text{
+    font-family:'Montserrat',sans-serif;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    font-size:13px;
+    color:#f5e8da;
+    margin-bottom:20px;
+}
+
+/* Main Heading */
+
+h1{
+    font-family:'Cormorant Garamond',serif;
+    font-size:68px;
+    font-weight:600;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+h1 span{
+    color:#d8b46a;
+}
+
+/* Quote */
+
+.quote{
+    font-size:22px;
+    line-height:1.8;
+    color:#f2ebe3;
+    margin-bottom:45px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:16px 38px;
+    background:#6b2b3e;
+    color:white;
+    border-radius:50px;
+    font-family:'Montserrat',sans-serif;
+    transition:.4s;
+    border:1px solid rgba(255,255,255,.2);
+}
+
+.btn:hover{
+    background:#8d4157;
+    transform:translateY(-3px);
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+h1{
+    font-size:48px;
+}
+
+.quote{
+    font-size:18px;
+}
+
+.small-text{
+    font-size:11px;
+    letter-spacing:3px;
+}
+
+.btn{
+    padding:14px 30px;
+}
+
+}
