@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>My Letter To You | Kusuu ❤️ Naagii</title>
+<title>My Letter To You ❤️</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Lora:wght@400;500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
@@ -16,7 +16,7 @@
 
 <body class="letter-page">
 
-<section class="letter-section">
+<section class="letter-container">
 
 <p class="chapter">
 CHAPTER TWELVE
@@ -27,28 +27,42 @@ A Letter From My Heart
 </h1>
 
 <p class="subtitle">
-For the one who changed my life forever...
+Click the letter to open it...
 </p>
 
-<div class="letter-card">
+<div class="envelope" id="openLetter">
+
+💌
+
+<p>Open My Letter</p>
+
+</div>
+
+<div class="letter-card" id="letterCard">
+
+<h2>
+My Dearest Kusuu,
+</h2>
 
 <p>
 
-My Dearest Kusuu,
+If someone had told me that one person could completely change my life, I probably wouldn't have believed them.
 
-From the day you walked into my life, everything became brighter.
+But then I met you.
 
-Thank you for every smile, every hug, every laugh, every little memory, and every moment you've shared with me.
+You turned ordinary days into beautiful memories, simple conversations into endless happiness, and every moment with you into something I'll always treasure.
 
-No matter where life takes us, you will always have a special place in my heart.
+Thank you for your love, your care, your patience, and for standing beside me through everything.
 
-I promise to stand beside you, support you, and love you through every chapter of our journey.
+No matter what tomorrow brings, I hope we continue creating memories, laughing together, supporting each other, and growing stronger every day.
 
-You are my safest place, my happiness, and my forever.
+You are not just a part of my story...
 
-With all my love,
+You are my favourite chapter.
 
-❤️ Naagii
+Forever yours,
+
+<b>❤️ Naagii</b>
 
 </p>
 
@@ -62,7 +76,25 @@ Our Future →
 
 </section>
 
-<script src="script.js"></script>
+<script>
+
+const envelope=document.getElementById("openLetter");
+const letter=document.getElementById("letterCard");
+
+envelope.onclick=function(){
+
+letter.style.display="block";
+
+envelope.style.display="none";
+
+window.scrollTo({
+top:400,
+behavior:"smooth"
+});
+
+}
+
+</script>
 
 </body>
 
