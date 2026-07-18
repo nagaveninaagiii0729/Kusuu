@@ -127,3 +127,102 @@ h1{
 }
 
 }
+/* LETTER PAGE */
+
+.letter-page{
+
+background:#efe6dc;
+font-family:'Lora',serif;
+padding:40px 20px;
+}
+
+.letter-container{
+
+max-width:900px;
+margin:auto;
+text-align:center;
+
+}
+
+.chapter{
+
+font-family:'Montserrat',sans-serif;
+letter-spacing:4px;
+font-size:12px;
+color:#8a6d5b;
+margin-bottom:15px;
+
+}
+
+.letter-container h1{
+
+font-family:'Cormorant Garamond',serif;
+font-size:55px;
+color:#5b2d42;
+margin-bottom:10px;
+
+}
+
+.subtitle{
+
+font-size:18px;
+margin-bottom:40px;
+color:#666;
+
+}
+
+.envelope{
+
+width:220px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:15px;
+cursor:pointer;
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+transition:.4s;
+
+}
+
+.envelope:hover{
+
+transform:scale(1.05);
+
+}
+
+.envelope p{
+
+margin-top:15px;
+font-family:'Montserrat',sans-serif;
+
+}
+
+.letter-card{
+
+display:none;
+margin-top:40px;
+background:#fffdf8;
+padding:50px;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,.15);
+text-align:left;
+line-height:2;
+font-size:19px;
+
+}
+
+.letter-card h2{
+
+font-family:'Cormorant Garamond',serif;
+font-size:42px;
+margin-bottom:25px;
+color:#5b2d42;
+
+}
+
+.btn{
+
+margin-top:40px;
+display:inline-block;
+
+}
