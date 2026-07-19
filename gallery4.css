@@ -1,0 +1,164 @@
+/* ===========================
+   GALLERY 4
+   LUXURY MEMORY WALL
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=Manrope:wght@300;400;500&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#faf7f2;
+font-family:'Manrope',sans-serif;
+padding:60px 20px;
+color:#222;
+
+}
+
+.gallery-section{
+
+max-width:1400px;
+margin:auto;
+
+}
+
+.chapter{
+
+text-align:center;
+letter-spacing:6px;
+font-size:13px;
+color:#a68a64;
+margin-bottom:15px;
+
+}
+
+h1{
+
+text-align:center;
+font-family:'Bodoni Moda',serif;
+font-size:60px;
+margin-bottom:15px;
+
+}
+
+.subtitle{
+
+text-align:center;
+font-size:18px;
+color:#777;
+margin-bottom:60px;
+
+}
+
+.memory-wall{
+
+display:grid;
+grid-template-columns:2fr 1fr 1fr;
+grid-auto-rows:250px;
+gap:20px;
+
+}
+
+.memory-wall img{
+
+width:100%;
+height:100%;
+object-fit:cover;
+border-radius:18px;
+box-shadow:0 12px 35px rgba(0,0,0,.12);
+transition:.4s;
+
+}
+
+.memory-wall img:hover{
+
+transform:scale(1.03);
+
+}
+
+.big{
+
+grid-row:span 2;
+
+}
+
+.wide{
+
+grid-column:span 2;
+
+}
+
+.btn{
+
+display:block;
+width:250px;
+margin:70px auto;
+text-align:center;
+padding:18px;
+text-decoration:none;
+background:#111;
+color:white;
+border-radius:50px;
+letter-spacing:2px;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:#a68a64;
+
+}
+
+@media(max-width:900px){
+
+.memory-wall{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+.big{
+
+grid-row:span 1;
+
+}
+
+.wide{
+
+grid-column:span 2;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.memory-wall{
+
+grid-template-columns:1fr;
+
+grid-auto-rows:250px;
+
+}
+
+.big,
+.wide{
+
+grid-column:span 1;
+grid-row:span 1;
+
+}
+
+h1{
+
+font-size:40px;
+
+}
+
+}
