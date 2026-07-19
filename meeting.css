@@ -1,0 +1,124 @@
+/* ===========================
+   FIRST MEETING
+   TRAVEL POSTCARD
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:wght@300;400;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#efe6db;
+font-family:'Nunito Sans',sans-serif;
+padding:50px 20px;
+color:#3b3129;
+
+}
+
+.meeting-card{
+
+max-width:900px;
+margin:auto;
+background:white;
+padding:50px;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,.12);
+
+}
+
+.chapter{
+
+letter-spacing:5px;
+font-size:13px;
+text-transform:uppercase;
+color:#9b7d60;
+margin-bottom:15px;
+
+}
+
+h1{
+
+font-family:'DM Serif Display',serif;
+font-size:56px;
+margin-bottom:15px;
+
+}
+
+.date{
+
+font-size:18px;
+margin-bottom:8px;
+color:#666;
+
+}
+
+.location{
+
+font-size:18px;
+margin-bottom:35px;
+color:#8b5e3c;
+
+}
+
+.meeting-photo{
+
+width:100%;
+border-radius:18px;
+margin-bottom:35px;
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+.story{
+
+font-size:20px;
+line-height:2;
+text-align:justify;
+margin-bottom:40px;
+
+}
+
+.btn{
+
+display:inline-block;
+padding:16px 40px;
+background:#7c5c45;
+color:white;
+text-decoration:none;
+border-radius:50px;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:#5d4433;
+
+}
+
+@media(max-width:768px){
+
+.meeting-card{
+
+padding:30px;
+
+}
+
+h1{
+
+font-size:40px;
+
+}
+
+.story{
+
+font-size:17px;
+
+}
+
+}
