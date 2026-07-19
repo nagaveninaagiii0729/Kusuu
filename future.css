@@ -1,0 +1,123 @@
+/* ===========================
+   FUTURE
+   DREAMY NIGHT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Raleway:wght@300;400&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:linear-gradient(to bottom,#020617,#0f172a,#1e293b);
+font-family:'Raleway',sans-serif;
+color:white;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px;
+
+}
+
+.future-card{
+
+max-width:900px;
+width:100%;
+text-align:center;
+padding:60px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border-radius:25px;
+box-shadow:0 20px 60px rgba(0,0,0,.45);
+
+}
+
+.chapter{
+
+letter-spacing:6px;
+font-size:13px;
+color:#cbd5e1;
+margin-bottom:15px;
+
+}
+
+h1{
+
+font-family:'Cormorant Garamond',serif;
+font-size:70px;
+margin-bottom:20px;
+
+}
+
+.subtitle{
+
+font-size:20px;
+color:#d1d5db;
+margin-bottom:45px;
+line-height:1.8;
+
+}
+
+.future-card p{
+
+font-size:22px;
+line-height:2.1;
+margin-bottom:35px;
+
+}
+
+.promise{
+
+font-family:'Cormorant Garamond',serif;
+font-size:34px;
+color:#f8d568;
+margin-top:30px;
+
+}
+
+.btn{
+
+display:inline-block;
+margin-top:45px;
+padding:18px 45px;
+background:white;
+color:#111827;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.4s;
+
+}
+
+.btn:hover{
+
+background:#f8d568;
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:46px;
+
+}
+
+.future-card{
+
+padding:30px;
+
+}
+
+.future-card p{
+
+font-size:18px;
+
+}
+
+}
