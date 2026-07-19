@@ -226,3 +226,58 @@ margin-top:40px;
 display:inline-block;
 
 }
+/* FUTURE PAGE */
+
+.future-page{
+
+background:linear-gradient(to bottom,#0f172a,#1e293b,#334155);
+color:white;
+font-family:'Lora',serif;
+padding:50px 20px;
+
+}
+
+.future-section{
+
+max-width:900px;
+margin:auto;
+text-align:center;
+
+}
+
+.future-card{
+
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(12px);
+padding:40px;
+border-radius:20px;
+margin-top:40px;
+line-height:2;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+.future-card h2{
+
+font-family:'Cormorant Garamond',serif;
+font-size:40px;
+margin-bottom:20px;
+
+}
+
+.promise{
+
+margin-top:40px;
+padding:30px;
+border:1px solid rgba(255,255,255,.2);
+border-radius:20px;
+
+}
+
+.promise h3{
+
+font-family:'Cormorant Garamond',serif;
+font-size:34px;
+margin-bottom:15px;
+
+}
