@@ -1,68 +1,73 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>My Letter To You ❤️</title>
+<title>Love Letter ❤️</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Lora:wght@400;500&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="letter.css">
 
 </head>
 
-<body class="letter-page">
+<body>
 
-<section class="letter-container">
+<div class="container">
 
 <p class="chapter">
+
 CHAPTER TWELVE
+
 </p>
 
 <h1>
-A Letter From My Heart
+
+A Letter For You
+
 </h1>
 
 <p class="subtitle">
-Click the letter to open it...
+
+Tap the envelope to read my heart...
+
 </p>
 
-<div class="envelope" id="openLetter">
+<div class="envelope" id="open">
 
 💌
 
-<p>Open My Letter</p>
-
 </div>
 
-<div class="letter-card" id="letterCard">
+<div class="letter" id="letter">
 
 <h2>
+
 My Dearest Kusuu,
+
 </h2>
 
 <p>
 
-If someone had told me that one person could completely change my life, I probably wouldn't have believed them.
+From the very first conversation to every beautiful memory we've created together...
 
-But then I met you.
+you've filled my life with happiness, laughter, comfort, and love.
 
-You turned ordinary days into beautiful memories, simple conversations into endless happiness, and every moment with you into something I'll always treasure.
+Thank you for believing in us, for standing beside me, and for making ordinary moments feel magical.
 
-Thank you for your love, your care, your patience, and for standing beside me through everything.
+No matter where life takes us, you'll always be my safest place, my biggest smile, and my favorite person.
 
-No matter what tomorrow brings, I hope we continue creating memories, laughing together, supporting each other, and growing stronger every day.
-
-You are not just a part of my story...
-
-You are my favourite chapter.
+Every chapter we've written together has become a part of my heart, and I can't wait to write the rest of our story with you.
 
 Forever yours,
 
-<b>❤️ Naagii</b>
+❤️ Naagii
 
 </p>
 
@@ -74,23 +79,19 @@ Our Future →
 
 </a>
 
-</section>
+</div>
 
 <script>
 
-const envelope=document.getElementById("openLetter");
-const letter=document.getElementById("letterCard");
+const envelope=document.getElementById("open");
+
+const letter=document.getElementById("letter");
 
 envelope.onclick=function(){
 
 letter.style.display="block";
 
 envelope.style.display="none";
-
-window.scrollTo({
-top:400,
-behavior:"smooth"
-});
 
 }
 
